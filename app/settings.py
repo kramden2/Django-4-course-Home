@@ -46,10 +46,13 @@ INSTALLED_APPS = [
 
     'main',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'goods',
     'users',
     'carts',
     'orders',
+=======
+>>>>>>> parent of 13b7ee9 (Added goods app, connected catalog & product html)
 =======
 >>>>>>> parent of 13b7ee9 (Added goods app, connected catalog & product html)
 ]

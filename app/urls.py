@@ -24,6 +24,7 @@ from app import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
 <<<<<<< HEAD
+<<<<<<< HEAD
     path('', include('main.urls', namespace='main')),
     path('catalog/', include('goods.urls', namespace='catalog')),
     path('user/', include('users.urls', namespace='user')),
@@ -46,6 +47,11 @@ www.site.com/about/
 www.site.com/catalog/
 www.site.com/catalog/product
 """
+=======
+    path('', include('main.urls', namespace='main'))
+]
+
+>>>>>>> parent of 13b7ee9 (Added goods app, connected catalog & product html)
 =======
     path('', include('main.urls', namespace='main'))
 ]
