@@ -25,6 +25,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 85daf37 (s)
     path('', include('main.urls', namespace='main')),
     path('catalog/', include('goods.urls', namespace='catalog')),
     path('user/', include('users.urls', namespace='user')),
@@ -46,6 +49,7 @@ www.site.com
 www.site.com/about/
 www.site.com/catalog/
 www.site.com/catalog/product
+<<<<<<< HEAD
 """
 =======
     path('', include('main.urls', namespace='main'))
@@ -57,3 +61,6 @@ www.site.com/catalog/product
 ]
 
 >>>>>>> parent of 13b7ee9 (Added goods app, connected catalog & product html)
+=======
+"""
+>>>>>>> parent of 85daf37 (s)
